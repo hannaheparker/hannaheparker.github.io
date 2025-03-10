@@ -1,27 +1,98 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 2 - Global Goal Research Project</title>
     <style>
-      body{
-      background-color: lightCyan;
-      color: navy;
-      text-align: center;
-      display:grid;
-      place-items:center;
+      /* General Body Style */
+      body {
+        background-color: lightCyan;
+        color: navy;
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
       }
+
+      /* Menu Bar Styling */
+      nav {
+        width: 100%;
+        background-color: navy;
+        padding: 10px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        text-align: center;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px;
+        font-size: 1.2rem;
+        margin: 0 15px;
+      }
+
+      nav a:hover {
+        background-color: #1abc9c;
+        color: white;
+      }
+
+      /* Main Content Section */
+      main {
+        margin-top: 80px; /* To ensure content doesn't overlap with the nav bar */
+        text-align: center;
+        padding: 20px;
+        max-width: 900px;
+        background-color: #ecf0f1;
+        border-radius: 12px;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+        color: #2c3e50;
+      }
+
+      h2 {
+        margin-top: 0;
+        margin-bottom: 30px;
+        font-size: 1.5rem;
+        color: #34495e;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+        color: #34495e;
+        margin-top: 10px;
+      }
+
+      img {
+        max-width: 90%;
+        height: auto;
+        margin: 20px 0;
+        border-radius: 8px;
+      }
+
     </style>
   </head>
   <body>
+    <!-- Navigation Bar -->
     <nav>
       <a href="index.html">Home</a>
       <a href="unit2.html">Unit 2</a>
       <a href="unit3.html">Unit 3</a>
     </nav>
-    <a href = "index.html">Home</a>
-    <h1>Unit 2 - Global Goal Research Project</h1>
-    <h2>This project is about the fourth global goal; Quality Education. It is a gif that shows research explaining what the quality education goal is and what you can do to help achieve it.</h2>
-    <img src="media/cs-academy-recording.gif">
-    <h3>I created the graduation cap logo to represent the goal of quality education. I called my logo in different places and in different colors by defining my logo and using parameters.</h3>
-    <h3>Below is my code snippet for my graduation cap logo.</h3>
-    <img src="media/Unit2_code.png">
+
+    <!-- Main Content -->
+    <main>
+      <h1>Unit 2 - Global Goal Research Project</h1>
+      <h2>This project is about the fourth global goal; Quality Education. It is a gif that shows research explaining what the quality education goal is and what you can do to help achieve it.</h2>
+      <img src="media/cs-academy-recording.gif" alt="Gif showing research on Quality Education">
+      <h3>I created the graduation cap logo to represent the goal of quality education. I called my logo in different places and in different colors by defining my logo and using parameters.</h3>
+      <h3>Below is my code snippet for my graduation cap logo.</h3>
+      <img src="media/Unit2_code.png" alt="Code for graduation cap logo">
+    </main>
   </body>
 </html>
